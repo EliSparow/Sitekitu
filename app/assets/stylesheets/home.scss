@@ -8,7 +8,8 @@ html {
     width: 100%;
     margin: 0;
     background-image: linear-gradient( 135deg, #FAD7A1 10%, #E96D71 100%);
-    background-size: cover; 
+    background-size: cover;
+    background-attachment: fixed; 
 }
 
 body {
