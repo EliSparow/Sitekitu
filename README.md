@@ -15,4 +15,4 @@ Max de Ponfilly | @Max :tiger:
 Hélène Martin | @Helene Cbm :panda_face:
 Victor Gabella | @Victorhebdo :bear:
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif)
