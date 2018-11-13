@@ -5,14 +5,20 @@
     </div>
 
     <div class="navbar-buttons">
-        <%= button_to "HTML Code", "https://github.com/EliSparow/", :method => :get, form: {target: '_blank'}, :class => "myButton" %>
-        <%= button_to "CSS Code", "https://github.com/EliSparow/", :method => :get, form: {target: '_blank'}, :class => "myButton" %>
-        <%= button_to "Images", "https://github.com/EliSparow/", :method => :get, form: {target: '_blank'}, :class => "myButton" %>
+      
     </div>
 
     <div class="avatar">
       <%= link_to "Max", "https://github.com/TheFSilver", :class => "myname", target: :_blank %>
-      <%= link_to image_tag('avatar.jpg', :class => "avatar_img", :alt => "Github EliSparow", :title => "GitHub Profile"), "https://github.com/EliSparow", target: :_blank %>
+      
+      <div class="dropdown">
+        <button class="dropbtn"><%= image_tag('avatar.jpg', :class => "avatar_img", :alt => "Github EliSparow") %></button>
+        <div class="dropdown-content">
+          <a href="#">HTML Code</a>
+          <a href="#">CSS Code</a>
+          <a href="#">Images</a>
+        </div>
+      </div>
     </div>
 
 </div>
