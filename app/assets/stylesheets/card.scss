@@ -3,14 +3,16 @@
 }
 
 .bodycard {
-	margin: 10%;
+	margin-top: 7%;
+	margin-left: 5%;
+	margin-right: 5%;   
+	margin-bottom: 10%;
 	padding: 0;
 }
 
-.card, .cardtwo, .cardthree {
+.card{
 	float:left;
 	width: 20%;
-	padding: 10px;
 	margin-right: 10px;
 }
 
@@ -20,25 +22,24 @@
 	display:table;
 }
 
-.card, .cardtwo, .cardthree{
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.card{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
    transition: 0.3s;
    width: 32%;
 }
 
-.card, .cardtwo, .cardthree:hover {
+.card:hover {
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 
-.container, .containertwo, .containerthree {
+.container {
    padding: 2px 16px;
 }
 
-.card-avatar, .cardtwo-avatar, .cardthree-avatar {
+.card-avatar {
 	height: 250px;
 	width: 250px;
     border-radius: 100%;
 }
-
 

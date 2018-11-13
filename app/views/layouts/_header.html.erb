@@ -5,18 +5,20 @@
     </div>
 
     <div class="navbar-buttons">
-      
+      <%= link_to "Home", root_path , :class => "myButton" %>
+      <%= link_to "Profiles", card_path , :class => "myButton" %>
+      <%= link_to "Truc Moche", tab_path , :class => "myButton" %>
     </div>
 
     <div class="avatar">
-      <%= link_to "Max", "https://github.com/TheFSilver", :class => "myname", target: :_blank %>
+      <%= link_to "Max", "https://github.com/EliSparow", :class => "myname", target: :_blank %>
       
       <div class="dropdown">
         <button class="dropbtn"><%= image_tag('avatar.jpg', :class => "avatar_img", :alt => "Github EliSparow") %></button>
         <div class="dropdown-content">
-          <a href="#">HTML Code</a>
-          <a href="#">CSS Code</a>
-          <a href="#">Images</a>
+          <a href="https://github.com/EliSparow/Sitekitu/tree/master/app/views">HTML Code</a>
+          <a href="https://github.com/EliSparow/Sitekitu/tree/master/app/assets/stylesheets ">CSS Code</a>
+          <a href="https://github.com/EliSparow/Sitekitu/tree/master/app/assets/images">Images</a>
         </div>
       </div>
     </div>

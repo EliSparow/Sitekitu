@@ -5,4 +5,6 @@ class HomeController < ApplicationController
   def card
   end
 
+  def tab
+  end
 end
