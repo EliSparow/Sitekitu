@@ -1,24 +1,18 @@
-# README
+# THP Semaine 7 Jour 2
+             
+## Lien vers le superproject en production :
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://sitekitu.herokuapp.com/
 
-Things you may want to cover:
+## Et voici notre belle équipe :frog: :
 
-* Ruby version
+Noms | Pseudo Slack
+------------ | -------------
+Pauline Labaisse | @Pauline Labaisse :baby_chick:
+Margaux Cortier | @Margaux Crt :penguin:
+Irina Penkovskaia | @Ira P. :octocat:
+Max de Ponfilly | @Max :tiger:
+Hélène Martin | @Helene Cbm :panda_face:
+Victor Gabella | @Victorhebdo :bear:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+YES
