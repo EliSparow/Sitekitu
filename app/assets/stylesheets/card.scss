@@ -1,0 +1,44 @@
+* {
+   box-sizing: border-box;
+}
+
+body{
+	margin: 10%;
+	padding: 0;
+}
+
+.card, .cardtwo, .cardthree {
+	float:left;
+	width: 20%;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display:table;
+}
+
+.card, .cardtwo, .cardthree{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   width: 32%;
+}
+
+.card, .cardtwo, .cardthree:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container, .containertwo, .containerthree {
+   padding: 2px 16px;
+}
+
+.card-avatar, .cardtwo-avatar, .cardthree-avatar {
+	height: 250px;
+	width: 250px;
+    border-radius: 100%;
+}
+
+
