@@ -128,11 +128,6 @@ body {
   transition: transform 1s;
 }
 
-.avatar_img:hover {
-  transform: scale(1.15);
-  border-radius: 45% !important;
-}
-
 /*/ Dropdown */
 .dropbtn {
     margin-top: 2%; 
@@ -172,10 +167,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #f86073
-}
-.dropdown-content .a1:hover {
-  background-color: #f86073;
+  color:#f4b491;
 }
 
 .dropdown:hover .dropdown-content {
